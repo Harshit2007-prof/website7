@@ -1,20 +1,44 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Harshit Gupta Portfolio
 
-# Run and deploy your AI Studio app
+A modern, minimalistic portfolio for graphic designer Harshit Gupta.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/82e89e45-dbac-4fd6-be3f-0f2b834a3e4c
+- Clean, modern, minimalistic design
+- Dark/Light theme toggle
+- Smooth animations with Framer Motion
+- Responsive layout with Tailwind CSS
+- Interactive portfolio grid
+- Contact form
 
-## Run Locally
+## Deployment to Vercel
 
-**Prerequisites:**  Node.js
+To deploy this project to Vercel, follow these steps:
 
+1.  **Push to GitHub/GitLab/Bitbucket:** Create a new repository and push your code.
+2.  **Import to Vercel:**
+    -   Go to [vercel.com](https://vercel.com) and sign in.
+    -   Click **Add New** -> **Project**.
+    -   Import your repository.
+3.  **Configure Project:**
+    -   Vercel should automatically detect **Vite** as the framework.
+    -   **Build Command:** `npm run build`
+    -   **Output Directory:** `dist`
+4.  **Environment Variables:**
+    -   If you're using any API keys (like `GEMINI_API_KEY`), add them in the **Environment Variables** section of the project settings on Vercel.
+5.  **Deploy:** Click **Deploy**.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Local Development
+
+1.  Install dependencies:
+    ```bash
+    npm install
+    ```
+2.  Start the development server:
+    ```bash
+    npm run dev
+    ```
+3.  Build for production:
+    ```bash
+    npm run build
+    ```
